@@ -8,3 +8,5 @@ jobs:
         run: echo "hello world"
       - name: "find out OS"
         run: "lsb_release -a"
+      - name: "update repository"
+        run: apt update
