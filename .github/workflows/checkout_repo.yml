@@ -1,0 +1,8 @@
+name: checkout_repo
+on: push
+jobs: 
+  checkout-myrepo :
+    runs-on: ubuntu-latest
+    steps: 
+      - name: "install git"
+        run: sudo apt install -y git
