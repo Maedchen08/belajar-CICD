@@ -9,4 +9,4 @@ jobs:
       - name: "find out OS"
         run: "lsb_release -a"
       - name: "update repository"
-        run: apt update
+        run: sudo apt update
