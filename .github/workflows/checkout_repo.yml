@@ -6,3 +6,7 @@ jobs:
     steps: 
       - name: "install git"
         run: sudo apt install -y git
+      - name: "clone repository"
+        run: git clone https://github.com/docker-library/hello-world.git
+      - name: "listing directory"
+        run: ls
