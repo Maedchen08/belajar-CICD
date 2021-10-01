@@ -17,4 +17,4 @@ jobs:
       # - name: "change directory"
       #   run: cd hello-world/amd64/hello-world
       - name: "Run applications"
-        run: ./hello-world/amd64/hello-world/hello
+        run: ./amd64/hello-world/hello
