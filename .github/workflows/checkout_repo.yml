@@ -4,11 +4,14 @@ jobs:
   checkout-myrepo :
     runs-on: ubuntu-latest
     steps: 
+
       # - name: "install git"
       #   run: sudo apt install -y git
       # - name: "clone repository"
       #   run: git clone https://github.com/docker-library/hello-world.git
       - uses: actions/checkout@v2
+        with:
+          repository: "docker-library/hello-world"
       - name: "listing directory"
         run: ls
       - name: "change directory"
