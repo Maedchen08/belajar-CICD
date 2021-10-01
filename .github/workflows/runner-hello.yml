@@ -8,4 +8,4 @@ jobs:
     runs-on: computer-local
     steps:
       - name: "runner hello world"
-        uses: echo "hello world"
+        run: echo "hello world"
