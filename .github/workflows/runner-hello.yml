@@ -1,4 +1,4 @@
-name: runner
+name: runner-hello
 on: 
   push:
     branches:
