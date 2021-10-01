@@ -1,5 +1,5 @@
 name: test
-on: pull-request
+on: pull_request
 jobs: 
   my-testing:
     runs-on: ubuntu-latest
