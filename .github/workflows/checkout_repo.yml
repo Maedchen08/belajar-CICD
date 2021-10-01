@@ -10,7 +10,7 @@ jobs:
         run: git clone https://github.com/docker-library/hello-world.git
       - name: "listing directory"
         run: ls
-      - name: "change directory"
-        run: cd hello-world
+      # - name: "change directory"
+      #   run: cd hello-world
       - name: "Run application"
         run: ./hello
