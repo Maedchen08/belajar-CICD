@@ -13,4 +13,4 @@ jobs:
       - name: "change directory"
         run: cd hello-world
       - name: "Run application"
-        run: ./hello
+        run: ./hello-world/hello
