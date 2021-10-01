@@ -12,5 +12,5 @@ jobs:
         run: ls
       - name: "change directory"
         run: cd hello-world/amd64/hello-world
-      - name: "Run application"
+      - name: "Run applications"
         run: ./hello-world/amd64/hello-world/hello
