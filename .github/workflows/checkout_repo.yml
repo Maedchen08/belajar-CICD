@@ -11,6 +11,6 @@ jobs:
       - name: "listing directory"
         run: ls
       - name: "change directory"
-        run: cd hello-world
-      - name: "Run application"
-        run: ./hello-world/hello
+        run: cd hello-world/amd64/hello-world
+      # - name: "Run application"
+      #   run: ./hello-world/hello
