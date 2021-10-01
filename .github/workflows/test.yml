@@ -1,7 +1,7 @@
 name: test
 on: pull-request
 jobs: 
-  my-job:
+  my-testing:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
