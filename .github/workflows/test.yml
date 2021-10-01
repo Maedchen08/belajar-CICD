@@ -1,5 +1,5 @@
 name: test
-on: pul-request
+on: pull-request
 jobs: 
   my-job:
     runs-on: ubuntu-latest
