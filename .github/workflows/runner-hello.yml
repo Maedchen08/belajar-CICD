@@ -4,8 +4,8 @@ on:
     branches:
       - running-hello-world
 jobs: 
-  checkout-myrepo :
+  runner-job:
     runs-on: computer-local
     steps:
       - name: "runner hello world"
-        run: echo "hello world"
+        uses: echo "hello world"
