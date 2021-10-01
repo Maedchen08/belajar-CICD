@@ -11,5 +11,5 @@ jobs:
       - run: go version
       - name: "testing"
         run: go test -v
-      - name: "linting"
+      - name: "lintings"
         run: go fmt .
