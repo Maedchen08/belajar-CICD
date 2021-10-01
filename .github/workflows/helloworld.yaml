@@ -1,12 +1,12 @@
-name: helloworld
-on: push
-jobs: 
-  my-job:
-    runs-on: ubuntu-latest
-    steps: 
-      - name: "first try CICD ."
-        run: echo "hello world!!"
-      - name: "find out OS"
-        run: "lsb_release -a"
-      - name: "update repository"
-        run: sudo apt update
+# name: helloworld
+# on: push
+# jobs: 
+#   my-job:
+#     runs-on: ubuntu-latest
+#     steps: 
+#       - name: "first try CICD ."
+#         run: echo "hello world!!"
+#       - name: "find out OS"
+#         run: "lsb_release -a"
+#       - name: "update repository"
+#         run: sudo apt update
