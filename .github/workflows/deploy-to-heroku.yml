@@ -1,0 +1,15 @@
+name: deploy
+on: 
+  push: 
+    branches: 
+      - heroku
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+    steps:
+      -users: actions/checkout@v2
+      -users: akhileshns/heroku-deploy@v3.12.12
+        with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: "fiber08"
+        heroku_email: "ekanur0812rahmawati@gmail.com"
