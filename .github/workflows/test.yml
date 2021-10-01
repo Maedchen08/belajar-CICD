@@ -12,4 +12,4 @@ jobs:
       - name: "testing"
         run: go test -v
       - name: "linting"
-        run: go linting -
+        run: go fmt .
